@@ -1,0 +1,49 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+html,
+body,
+.cover {
+  height: 100%;
+
+}
+
+.cover {
+  background: url("./img/Fondo.jpg");
+  /* height: 100%;
+  position: absolute; */
+}
+
+/* Cabecera */
+.cabecera {
+  /* background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.8) 100%);
+  background: rgb(0 0 0 / 40%); */
+  background: none;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  background: rgb(0 0 0 / 40%);
+ 
+  padding: 30px 250px 0px 250px;
+}
+
+div.logo {
+  float: left;
+  color: red;
+  font-size: 30px;
+}
+
+div.login {
+  /* left: 100%; */
+  color: red;
+  font-size: 26px;
+  /* position: relative; */
+  float: right;
+
+}
+
+/*Cabecera*/
