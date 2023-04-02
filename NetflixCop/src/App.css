@@ -7,6 +7,9 @@ html,
 body,
 .cover {
   height: 100%;
+  color: white;
+  /* -webkit-text-size-adjust: 100%; */
+    font-family: sans-serif
 
 }
 
@@ -27,7 +30,7 @@ body,
   right: 0px;
   bottom: 0px;
   background: rgb(0 0 0 / 40%);
- 
+
   padding: 30px 250px 0px 250px;
 }
 
@@ -43,7 +46,55 @@ div.login {
   font-size: 26px;
   /* position: relative; */
   float: right;
-
 }
 
+.cabecerados{
+  height: 100%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: absolute;
+}
+.peliculas{
+  font-size: 3rem;
+  font-weight: 900;
+  top: 0px;
+}
+
+.disfruta{
+  font-size: 1.5rem;
+    font-weight: 500;
+   margin: 20px;
+}
+
+
+input{
+    width: 450px;
+    line-height: 1.5rem;
+    padding: 1.5rem 1rem 0.5rem;
+    background-color: #000000c7;
+    border-radius: 5px;
+    border-style: solid;
+}
+button{
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  margin-top: 0;
+  margin-left: 0.5rem;
+  height: 60px;
+  width: 200px;
+  color: white;
+  background: rgb(229, 9, 20);
+  border-radius: 5px;
+ border-style: none;
+ font-size: 1.5rem;
+}
+
+form{
+  display: flex;
+ 
+}
 /*Cabecera*/
