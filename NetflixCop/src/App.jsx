@@ -14,26 +14,42 @@ function App() {
         </nav>
         <div className='cabecerados'>
           <h1 className='peliculas'>Películas y series ilimitadas y mucho más</h1>
-            <p className='disfruta'>Disfruta donde quieras. Cancela cuando quieras.</p>
-            <p className='disfruta'>¿Quieres ver Netflix ya? Ingresa tu email para crear una cuenta o reiniciar tu membresía de Netflix.</p>
-        <form className='for'>
-          <input type="text" name="email" id="" placeholder='Email' />
-          <button >Comenzar</button>
-        </form>
-        
+          <p className='disfruta'>Disfruta donde quieras. Cancela cuando quieras.</p>
+          <p className='disfruta'>¿Quieres ver Netflix ya? Ingresa tu email para crear una cuenta o reiniciar tu membresía de Netflix.</p>
+          <form className='for'>
+            <input type="text" name="email" id="" placeholder='Email' />
+            <button >Comenzar</button>
+          </form>
+        </div>
+      </section>
+
+      <section  >
+        <div className='contenido'>
+          <div className='contLeft'>text</div>
+          <div className='contRight'>vid</div>
+          <div className='restaurar'></div>
         </div>
       </section>
       <section>
-
+        <div className='contenido'>
+          <div className='contLeft'>video</div>
+          <div className='contRight'>text</div>
+          <div className='restaurar'></div>
+        </div>
       </section>
       <section>
-
+        <div className='contenido'>
+          <div className='contLeft'>text</div>
+          <div className='contRight'>vid</div>
+          <div className='restaurar'></div>
+        </div>
       </section>
       <section>
-
-      </section>
-      <section>
-
+        <div className='contenido'>
+          <div className='contLeft'>video</div>
+          <div className='contRight'>text</div>
+          <div className='restaurar'></div>
+        </div>
       </section>
       <section>
 

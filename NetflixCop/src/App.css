@@ -1,28 +1,37 @@
 * {
   margin: 0px;
   padding: 0px;
+
 }
 
-html,
-body,
-.cover {
+html,body, .cover {
   height: 100%;
   color: white;
-  /* -webkit-text-size-adjust: 100%; */
-    font-family: sans-serif
-
+  background-color: rgba(57, 54, 54, 0.972);
+ font-family: sans-serif
 }
-
 .cover {
   background: url("./img/Fondo.jpg");
-  /* height: 100%;
-  position: absolute; */
+  background-color:none;
+  height: 100%;
 }
+
+section{
+  position: relative;
+  padding: 50px;
+  top: 50px;
+  top: 730px;
+  background: black;
+  margin-top: 5px  ;
+}
+
+.restaurar{
+  clear: both;
+}
+
 
 /* Cabecera */
 .cabecera {
-  /* background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.8) 100%);
-  background: rgb(0 0 0 / 40%); */
   background: none;
   position: absolute;
   top: 0px;
@@ -30,8 +39,9 @@ body,
   right: 0px;
   bottom: 0px;
   background: rgb(0 0 0 / 40%);
-
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.8) 100%);
   padding: 30px 250px 0px 250px;
+  
 }
 
 div.logo {
@@ -41,10 +51,8 @@ div.logo {
 }
 
 div.login {
-  /* left: 100%; */
   color: red;
   font-size: 26px;
-  /* position: relative; */
   float: right;
 }
 
@@ -95,6 +103,19 @@ button{
 
 form{
   display: flex;
- 
 }
 /*Cabecera*/
+
+/*Section 1*/
+
+.contenido{
+
+  border: solid blue;
+ 
+}
+.contLeft{
+  float: left;
+}
+.contRight{
+  float: right;
+}
