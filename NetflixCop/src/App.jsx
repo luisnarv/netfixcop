@@ -1,6 +1,7 @@
 
 import './App.css'
-
+import imagen from "./img/tv.png";
+import videouno from "./img/video-tv-0819.mp4";
 function App() {
 
 
@@ -23,13 +24,20 @@ function App() {
         </div>
       </section>
 
-      <section  >
+      <section className='sectiondos'>
         <div className='contenido'>
-          <div className='contLeft'>text</div>
-          <div className='contRight'>vid</div>
-          <div className='restaurar'></div>
+          <div className='contLeft txt'>
+            <h2 className='textH2' >Disfruta en tu TV</h2>
+            <p className='textP'>Ve en smart TV, PlayStation, Xbox, Chromecast, Apple TV, reproductores de Blu-ray y más.</p>
+          </div>
+          <div className='contRight image'> 
+            <img className='tv' src={imagen} alt="ppp"  />
+            <video className='tvvideo' data-uia="nmhp-card-animation-asset-video" autoplay="" playsinline="" muted="" loop=""><source src={videouno} type="video/mp4"/></video>  
+             </div>
+          <div className='restaurar '></div>
         </div>
       </section>
+
       <section>
         <div className='contenido'>
           <div className='contLeft'>video</div>

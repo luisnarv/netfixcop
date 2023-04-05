@@ -13,6 +13,7 @@ html,body, .cover {
 .cover {
   background: url("./img/Fondo.jpg");
   background-color:none;
+ 
   height: 100%;
 }
 
@@ -106,16 +107,59 @@ form{
 }
 /*Cabecera*/
 
-/*Section 1*/
+
+
+/*Section 2*/
+.sectiondos{
+  padding: 5%;
+}
 
 .contenido{
-
-  border: solid blue;
- 
+  flex-direction: row;
+  /* border: solid blue; */
+  display: flex;
+  padding: 5%;
+  align-items: center;
+  justify-content: flex-end;
+}
+.txt{
+  width: 59%;
+}
+.image{
+  width: 39%;
 }
 .contLeft{
   float: left;
+  /* text-align: left;
+  padding-right: 0.375rem;
+  width: 500px; */
 }
 .contRight{
   float: right;
+  width: 500px;
+  
+}
+.tv{ 
+  width: 100%;
+  border: 0;
+  height: auto;
+  z-index: 2;
+  position: relative;
+}
+.tvvideo{
+  position: absolute;
+  transform: translate(-439px, 78px);
+  border-radius: 10px;
+  width: 370px;
+  z-index: 1;
+}
+
+.textH2{
+  font-size: 3rem;
+  font-weight: 900
+}
+.textP{
+  font-size: 1.5rem;
+  font-weight: 400;
+
 }
