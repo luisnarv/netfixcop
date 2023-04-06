@@ -163,3 +163,50 @@ form{
   font-weight: 400;
 
 }
+.carga{ 
+  overflow: hidden;
+  position: absolute;
+  left: 40%;
+  bottom: 150px;
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+  margin: 0 auto;
+  background: rgba(0, 0, 0, 1);
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  width: 20%;
+  min-width: 15rem;
+  padding: 0.25rem 0.65rem;
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0 0 2em 0 rgba(0, 0, 0, 1);
+  border-radius: 0.75rem;
+  z-index: 3;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.imgcarga{
+  height:4.5rem;
+}
+.cargaCir{
+  height: 3.75rem;
+  width: 3rem;
+  height: 3rem;
+  outline: 2px solid rgba(0, 0, 0, 1);
+  outline-offset: -2px;
+  display: block;
+  background: url("https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/download-icon.gif") center center no-repeat;
+  -webkit-background-size: 100%;
+  background-size: 100%;
+  content: '';
+  -webkit-box-flex: 0;
+  -webkit-flex-grow: 0;
+  -ms-flex-positive: 0;
+  flex-grow: 0;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+}
